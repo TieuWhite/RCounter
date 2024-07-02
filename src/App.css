@@ -1,0 +1,23 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  height: 50px;
+  width: 250px;
+  border-radius: 5px;
+}
