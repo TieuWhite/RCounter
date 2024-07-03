@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
 import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
-  let color = count > 0 ? "green" : count < 0 ? "red" : "black";
+  const color = count > 0 ? "green" : count < 0 ? "red" : "black";
 
   const increase = () => setCount(count + 1);
   const decrease = () => setCount(count - 1);
